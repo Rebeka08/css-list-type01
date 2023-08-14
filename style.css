@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#E52B50 ;
+    width:100%;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-style: inherit;
+    text-shadow: 1px 1px 1px rgba(81, 78, 78, 0.2), 
+    2px 2px 2px rgba(0, 0, 0, 0.6),3px 3px 3px rgba(0, 0, 0, 0.6);;
+}
+ul{
+    position:relative;
+    width: 450px;
+    margin: 100px auto 0;
+    padding:10px;
+    background: rgba(0, 0, 0, .1);
+    box-sizing:inset 0 0 15px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+ul li{
+    display: flex;
+    background:  rgb(255, 255, 255, .1) ;
+    padding:10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+ul li:nth-child(1)
+{
+    background:  rgb(255, 255, 255, .6);
+}
+
+ul li:nth-child(2)
+{
+    background:  rgb(255, 255, 255, .4);
+}
+ul li:nth-child(3)
+{
+    background:  rgb(255, 255, 255, .2);
+}
+
+ul li span:nth-child(1)
+{
+    width: 30px;
+}
+ul li span:nth-child(2)
+{
+    width: 200px;
+}
+ul li span:nth-child(3)
+{
+    width: 100px;
+    text-align: right;
+}
+ul li span:nth-child(4)
+{
+    width: 70px;
+text-align: right;
+}
+ul li:hover{
+    transform: scale(1.06);
+    background: #E52B50;
+}
